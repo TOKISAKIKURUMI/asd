@@ -1,0 +1,140 @@
+
+h1,li {
+	text-align: center;
+}
+.list {
+	width:93%;
+}
+.list2 {
+	width:93%;
+	margin-left: 0.5em;
+}
+.spa2 {
+     display: inline-block;
+     width: 20%;
+     margin-left: 10%;
+     margin-top: 0.4em;
+	/*height: 9.5em;
+	width: 5.355em;
+	float:left;
+	margin-left: 1.7em;
+	margin-top: 0.4em;*/
+	/*background-color: lightblue;
+	background-image: url("img/tupian.jpg");*/
+}
+.spa3 {
+	display: inline-block;
+	content: :'';
+	height: 18.5em;
+	width: 8.355em;
+	float:left;
+	margin-left: 1.7em;
+	margin-top: 0.4em;
+	background-color: lightblue;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	transition:all 1000ms ease;
+	transform-style: preserve-3d;
+	transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+}
+@media (max-width: 720px){
+  .spa2, .spa3 , .yongye{
+  background-size: cover;
+  background-position: center; 
+  overflow: hidden;
+  }
+}
+.spa3:after {
+	height: 10em;
+	width: 25%;
+	float:left;
+	margin-left: 1.2em;
+	margin-top: 0.4em;
+	background-color: #3a9999;
+	transform:rotateY(180deg);
+}
+.next , .fill, .tianjia{
+	margin-left: 22%;
+	line-height: 3.3em;
+	font-size:1.5em;
+	width:60%;
+}
+.next {
+	margin-top:0.5em;
+}
+.tianjia {
+	margin-left: 0;
+	width:100%;
+}
+.form-control {
+	margin-left: 1em;
+}
+#myModal {
+	display: none;
+	margin:auto;
+	margin-top: 10%;
+	height: 55em;
+	overflow: hidden;
+	position: fixed;
+}
+/*#finall {
+	display:none;
+}*/
+.img-responsive {
+	width: 100%;
+	height: 100%;
+}
+
+#yongye {
+	width: 90%;
+	height: 90%;
+	margin-top: 100px;
+	position: fixed;
+	margin: auto;
+	position: fixed;
+	z-index: 1; 
+}
+.control-group {
+	margin-left:5%; 
+}
+.black {
+	display: block;
+	height:50em;
+}
+
+body {
+	background-image: url("img/p222.jpg");
+}
+
+@media (max-width: 720px){
+  body {
+	background-image: url("img/p222.jpg");
+	background-size: cover;
+    background-position: center; 
+    overflow: hidden;
+  }
+}
+
+.introduction {
+    -webkit-mask: -webkit-gradient(linear,0% 80%,90% 100%,from(rgba(0,153,102,1)),to(rgba(0,255,153,0.4)));
+  	font-size: 200%; 
+    font-weight: 800;
+    font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    text-align: center;
+}
+
+.cen{
+	margin-left: 3%;
+}
+
+.lef {
+	margin-left: 18%;
+}
+
+.rig {
+ 
+ }
+
+

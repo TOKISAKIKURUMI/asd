@@ -1,0 +1,14 @@
+#haoshen {
+	background: url('../css/p222.jpg')  center center scroll;
+opacity:0.8;
+filter:alpha(opacity=80);
+background: red;
+}
+
+@media (max-width: 720px){
+  body{
+  background-size: cover;
+  background-position: center; 
+  overflow: hidden;
+  }
+}
